@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Panto Furniture E-commerce
 
-## Getting Started
+A modern, responsive furniture e-commerce website built with Next.js, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## 🚀 Features
 
+### Core Features
+- **Modern E-commerce Platform**: Complete furniture shopping experience
+- **Responsive Design**: Fully responsive across all device sizes
+- **Shopping Cart**: Context-based cart management with real-time updates
+- **Smooth Animations**: Framer Motion powered transitions
+- **Performance Optimized**: Built with Next.js for optimal performance
+
+### Navigation System
+- **Sticky Navigation**: Auto-hiding navbar with scroll effects
+- **Dropdown Menus**: Furniture categories with animated dropdowns
+- **Mobile-First**: Mobile-optimized navigation with hamburger menu
+- **Smooth Scrolling**: Anchor links with smooth scrolling behavior
+- **Active States**: Visual feedback for active navigation items
+
+### UI Components
+- **Custom Navbar**: With cart counter and furniture dropdown
+- **Product Display**: Featured products with interactive elements
+- **Footer**: Multi-column layout with social links
+- **Shopping Cart**: Real-time cart updates with badge notifications
+
+## 🛠️ Tech Stack
+
+**Frontend Framework:**
+- Next.js 16.0.10 (React 19.2.1)
+- TypeScript for type safety
+
+**Styling:**
+- Tailwind CSS with PostCSS
+- Custom utility classes
+
+**UI Components & Icons:**
+- Lucide React Icons
+- React Icons
+- Framer Motion for animations
+
+**Carousel & Sliders:**
+- Swiper.js for product carousels
+
+**State Management:**
+- React Context API for cart management
+
+## 📁 Project Structure
+panto-furniture/
+├── app/
+│ ├── context/
+│ │ └── CartContext.tsx # Cart state management
+│ ├── components/
+│ │ ├── Navbar.tsx # Main navigation
+│ │ ├── Footer.tsx # Site footer
+│ │ └── ... # Other components
+│ ├── cart/
+│ │ └── page.tsx # Cart page
+│ └── layout.tsx # Root layout
+├── data/
+│ └── content.ts # Static content and links
+├── lib/
+│ └── utils.ts # Utility functions
+├── public/ # Static assets
+└── package.json
+
+## 🎨 Design System
+
+### Colors
+- **Primary**: `#E58411` (Orange) - Used for hover states and accents
+- **Secondary**: Brand-specific color for logo
+- **Background**: White with subtle grays
+- **Text**: Black with gray variants for less important text
+
+### Typography
+- **Headings**: DM Sans font
+- **Body**: Gilroy font family
+- **Font Weights**: Regular, Medium, and Bold variants
+
+### Animations
+- Smooth transitions for hover states
+- Mobile menu slide-in animations
+- Dropdown fade-in effects
+- Scroll-triggered navbar effects
+
+## 🚦 Getting Started
+
+### Prerequisites
+- Node.js 18+ and npm/yarn/pnpm
+
+### Installation
+
+1. **Clone the repository**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone <repository-url>
+cd panto-furniture
