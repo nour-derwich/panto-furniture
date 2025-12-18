@@ -50,7 +50,7 @@ export const testimonials: Testimonial[] = [
     name: "Ibuk Sukijan",
     role: "Ibu Rumah Tangga",
     avatar: testimonialAvatars.ibukSukijan,
-    content: "Makasih Panto, aku sekarang berasa tinggal di apartment karena barang-barang yang terlihat mewah.",
+    content: "Makasih Panto, aku sekarang berasa tinggal di apartment karena .",
     rating: 4
   },
   {

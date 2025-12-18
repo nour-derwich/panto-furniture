@@ -115,16 +115,16 @@ const Testimonials = () => {
 
                   {/* Testimonial Card */}
                   <div className="md:h-[547px] flex  justify-center items-center mb-4">
-                    <div className="mt-16 mb-5 bg-white  rounded-xl md:w-4/5 w-full p-4 relative">
+                    <div className="mt-36 mb-5 bg-white  rounded-xl md:w-4/5 w-full p-4 relative">
                       {/* Reviewer Image */}
                       <div className="absolute -top-8 left-1/2 transform -translate-x-1/2">
-                        <div className="relative w-16 h-16 md:w-20 md:h-20">
+                        <div className="relative  w-16 h-16 md:w-15 md:h-15">
                           <Image
                             src={testimonial.avatar}
                             alt={testimonial.name}
                             fill
-                            className="rounded-full object-cover border-4 border-white shadow-lg"
-                            sizes="80px"
+                            className="rounded-full  object-cover border-4 border-white shadow-lg"
+                            sizes="50px"
                           />
                         </div>
                       </div>
