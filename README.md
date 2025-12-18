@@ -96,37 +96,52 @@ Navigate to [http://localhost:3000](http://localhost:3000)
 ```
 panto-furniture/
 ├── public/
-│   ├── fonts/
-│   │   ├── Gilroy-Regular.woff2
-│   │   ├── Gilroy-Medium.woff2
-│   │   └── Gilroy-Bold.woff2
+│   ├── prodects/
+│   │   ├── chair-1.png
+│   │   ├── chair-2.png
+│   │   └── chair-3.png
+        └── ..........
 │   └── images/
 │       ├── banner.png
 │       ├── chair-1.jpg
 │       └── testimonial1.png
+        └── reviewer1.png
+        └── ...........
 ├── src/
-│   ├── app/
-│   │   ├── layout.tsx
-│   │   ├── page.tsx
-│   │   └── globals.css
-│   ├── components/
-│   │   ├── Navbar.tsx
-│   │   ├── sections/
+│   .
+├── app
+│   ├── components
+│   │   ├── Rating.tsx
+│   │   ├── sections
+│   │   │   ├── ChooseUs.tsx
+│   │   │   ├── Experience.tsx
+│   │   │   ├── Footer.tsx
 │   │   │   ├── Hero.tsx
+│   │   │   ├── Materials.tsx
+│   │   │   ├── Navbar.tsx
 │   │   │   ├── Products.tsx
-│   │   │   ├── Testimonials.tsx
-│   │   │   └── Footer.tsx
-│   │   └── ui/
+│   │   │   └── Testimonials.tsx
+│   │   └── ui
+│   │       ├── ArrowButtonImage.tsx
+│   │       ├── ArrowButton.tsx
+│   │       ├── Button.tsx
 │   │       ├── ProductCard.tsx
+│   │       ├── TestimonialCard.tsx
 │   │       └── TooltipButton.tsx
-│   ├── context/
+│   ├── context
 │   │   └── CartContext.tsx
-│   ├── data/
-│   │   └── products.ts
-│   ├── lib/
-│   │   └── utils.ts
-│   └── types/
-│       └── index.ts
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── data
+│   ├── content.ts
+│   ├── material.ts
+│   ├── products.ts
+│   └── reviews.ts
+└── lib
+    └── utils.ts
+
 ├── tailwind.config.ts
 ├── tsconfig.json
 ├── next.config.js
