@@ -11,7 +11,6 @@ A modern, minimalistic furniture e-commerce landing page built with Next.js 14, 
 - ✅ **Hero Section** - Full-screen hero with search and interactive tooltips
 - ✅ **Product Showcase** - Grid display with add to cart functionality
 - ✅ **Testimonials Carousel** - Swiper.js powered reviews slider
-- ✅ **Shopping Cart** - Context API state management
 - ✅ **TypeScript** - Type-safe development
 - ✅ **Tailwind CSS v4** - Modern utility-first styling
 - ✅ **Custom Fonts** - Gilroy font family (Regular, Medium, Bold)
@@ -58,17 +57,9 @@ pnpm install
 npm install swiper framer-motion lucide-react clsx tailwind-merge
 ```
 
-4. **Add custom fonts**
-Place Gilroy font files in `public/fonts/`:
-```
-public/
-└── fonts/
-    ├── Gilroy-Regular.woff2
-    ├── Gilroy-Medium.woff2
-    └── Gilroy-Bold.woff2
-```
 
-5. **Add images**
+
+4. **Add images**
 Place project images in `public/images/`:
 ```
 public/
@@ -79,7 +70,7 @@ public/
     └── testimonial1.png to testimonial3.png
 ```
 
-6. **Run the development server**
+5. **Run the development server**
 ```bash
 npm run dev
 # or
@@ -88,7 +79,7 @@ yarn dev
 pnpm dev
 ```
 
-7. **Open in browser**
+6. **Open in browser**
 Navigate to [http://localhost:3000](http://localhost:3000)
 
 ## 📁 Project Structure
@@ -211,13 +202,8 @@ export default {
 - Custom navigation buttons
 - Auto-play with pause on hover
 - Responsive breakpoints (1/2/3 slides)
-- Fixed card dimensions (252×351px)
+- Fixed card dimensions 
 
-### Shopping Cart
-- Context API state management
-- Add/remove items
-- Quantity management
-- Toast notifications
 
 ## 🎯 Custom Classes
 
